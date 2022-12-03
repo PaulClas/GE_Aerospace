@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPT_PCLAS_GE", "PPT_PCLAS_GE\PPT_PCLAS_GE.csproj", "{5A7ACDC5-F0E5-4F04-8D3D-EB9D5057D6DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A7ACDC5-F0E5-4F04-8D3D-EB9D5057D6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7ACDC5-F0E5-4F04-8D3D-EB9D5057D6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7ACDC5-F0E5-4F04-8D3D-EB9D5057D6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7ACDC5-F0E5-4F04-8D3D-EB9D5057D6DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7834429-EBD7-4BAC-B9DE-8991DD151223}
+	EndGlobalSection
+EndGlobal
