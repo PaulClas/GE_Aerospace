@@ -73,6 +73,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\View\ParcoursProfessionelView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Theme\MenuButtonTheme.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -83,9 +87,14 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\ParcourProfessionelViewModel.cs" />
     <Compile Include="MVVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\ParcoursProfessionelView.xaml.cs">
+      <DependentUpon>ParcoursProfessionelView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -114,8 +123,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Fonts\" />
-    <Folder Include="Images\" />
     <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Code.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

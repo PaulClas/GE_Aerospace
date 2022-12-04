@@ -4,68 +4,83 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PPT_PCLAS_GE"
+        xmlns:viewModel="clr-namespace:PPT_PCLAS_GE.MVVM.ViewModel" 
         mc:Ignorable="d"
         Height="600" Width="920"
-        WindowStyle="None"
-        ResizeMode="CanResize"
-        Background="Transparent"
-        AllowsTransparency="True">
+        WindowStyle="ThreeDBorderWindow"
+        ResizeMode="CanResizeWithGrip"
+        Background="Transparent">
+    <Window.DataContext>
+        <viewModel:MainViewModel/>
+    </Window.DataContext>
 
     <Border Background="#272537" 
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="200"/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="341*"/>
+                <ColumnDefinition Width="19*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            
+
             <TextBlock Text="Paul Clas"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
                    Foreground="White"
                    FontSize="22"
-                   Margin="20,0,0,0"/>
+                   Margin="20,23,0,22"/>
 
             <StackPanel Grid.Row="1">
-                <RadioButton Content="Home"
+                <RadioButton Content="Accueil"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             IsChecked="True"
+                             Command="{Binding HomeViewCommand}"/>
+                <RadioButton Content="À propos"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="14"
+                             Style="{StaticResource MenuButtonTheme}"
+                             Command="{Binding ParcoursProfessionelViewCommand}"/>
+                <RadioButton Content="Poste"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Discovery"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Qualities"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="14"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Projects"
+                <RadioButton Content="Projets"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
 
-            <TextBox Width="250"
+            <TextBox Width="379"
                      Height="40"
                      VerticalAlignment="Center"
                      HorizontalAlignment="Left"
-                     Margin="5"
+                     Margin="5,18,0,17"
                      Grid.Column="1"
-                     Style="{StaticResource ModernTextbox}"/>
+                     Style="{StaticResource ModernTextbox}" TextChanged="TextBox_TextChanged"/>
+
+            <TextBlock Text="GE Aerospace"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Left"
+                   Foreground="White"
+                   FontSize="22"
+                   Margin="540,23,0,22" Grid.Column="1"/>
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
-                            Margin="10"/>
+                            Margin="10"
+                            Content="{Binding CurrentView}" Grid.ColumnSpan="2"/>
         </Grid>
 
     </Border>
-    
+
 </Window>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\App.xaml
-4253539944
+5595008191
 
-10-1552742749
+13996761663
 13-1505183044
-MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\SearchBarTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;MVVM\View\ParcoursProfessionelView.xaml;Theme\MenuButtonTheme.xaml;Theme\SearchBarTheme.xaml;
 
 True
 

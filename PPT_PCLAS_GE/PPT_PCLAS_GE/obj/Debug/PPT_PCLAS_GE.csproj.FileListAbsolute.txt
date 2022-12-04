@@ -16,3 +16,8 @@ C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\PPT_PCLAS
 C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\PPT_PCLAS_GE.exe
 C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\PPT_PCLAS_GE.pdb
 C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\Theme\SearchBarTheme.baml
+C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\MVVM\View\HomeView.g.cs
+C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\MVVM\View\HomeView.baml
+C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\MVVM\View\ParcoursProfessionelView.g.cs
+C:\Users\paulc\Github\GE_Aerospace\PPT_PCLAS_GE\PPT_PCLAS_GE\obj\Debug\MVVM\View\ParcoursProfessionelView.baml
